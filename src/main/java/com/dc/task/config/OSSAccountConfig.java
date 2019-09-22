@@ -1,7 +1,7 @@
 package com.dc.task.config;
 
 import lombok.Data;
-import org.springframework.context.annotation.PropertySource;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  */
 @Data
 @Component
-@PropertySource("oss")
+@ConfigurationProperties("oss")
 public class OSSAccountConfig {
 
     private String bucketName;

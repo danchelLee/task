@@ -48,7 +48,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("Danchel接口文档")
                 .description("常用接口")
-                .termsOfServiceUrl("danchel.com")
+                .termsOfServiceUrl("danchel")
                 .contact("dc")
                 .version("1.0")
                 .build();
